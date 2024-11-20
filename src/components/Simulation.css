@@ -1,0 +1,84 @@
+.simulation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #eaf7f9;
+}
+
+.trip-indicator {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background-color: #ffd700;
+    padding: 5px 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tables {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.table {
+    background-color: #ffe0b3;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.table-1 {
+    left: 0;
+}
+
+.table-2 {
+    left: 150px;
+}
+
+.table-3 {
+    left: 300px;
+}
+.waiter {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    transition: transform 0.5s ease-in-out; /* Reduzido para 0.5s */
+}
+
+.cup-count {
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bandeja {
+    margin-left: 10px;
+}
